@@ -4,6 +4,6 @@ char=input()
 if char in li:
     print("Vowel")
 elif char in li1:
-    print("Consonent")
+    print("Consonant")
 else:
     print("invalid")
