@@ -6,6 +6,10 @@ li=[]
 for i in range(a+1,b):
     if(i%2==0):
         li.append(i)
-for i in range(0,len(li)-1):
-    print(li[i],end=" ")
-print(li[i+1])
+if (len(li)!=1):
+    for i in range(0,len(li)-1):
+        print(li[i],end=" ")
+    print(li[i+1])
+else:
+    for i in range(0,len(li)):
+        print(li[i])
